@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb   # Replace with your database URL
+    username: root # Replace with your database username
+    password:   # Replace with your database password
+    
+  batch:
+    jdbc:
+      initialize-schema: always
+       
+  jpa:
+    hibernate:
+      ddl-auto: update  # Auto-generate and update the database schema
+    show-sql: true  # Show SQL statements in the console for debugging (optional)
+
+server:
+  port: 8081
