@@ -10,8 +10,6 @@ const NAV = [
   { href: '/dashboard/competitors', label: 'Competitors', icon: '◎' },
   { href: '/dashboard/changes', label: 'Changes', icon: '⟳' },
   { href: '/dashboard/alerts', label: 'Alerts', icon: '◬' },
-  { href: '/dashboard/digests', label: 'Digests', icon: '≡' },
-  { href: '/dashboard/activity', label: 'Activity', icon: '⚡' },
   { href: '/dashboard/settings', label: 'Settings', icon: '⚙' },
 ]
 

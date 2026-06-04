@@ -5,8 +5,6 @@ import {
   Target,
   RefreshCw,
   Bell,
-  Mail,
-  Activity,
   Settings,
 } from "lucide-react"
 import { createServerSupabaseClient } from "@/lib/supabase/server"
@@ -18,8 +16,6 @@ const navItems = [
   { icon: Target, label: "Competitors", href: "/dashboard/competitors" },
   { icon: RefreshCw, label: "Changes", href: "/dashboard/changes" },
   { icon: Bell, label: "Alerts", href: "/dashboard/alerts" },
-  { icon: Mail, label: "Digests", href: "/dashboard/digests" },
-  { icon: Activity, label: "Activity", href: "/dashboard/activity" },
   { icon: Settings, label: "Settings", href: "/dashboard/settings" },
 ]
 
